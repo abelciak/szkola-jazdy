@@ -1,0 +1,71 @@
+Szko³a jazdy
+
+    Pewna szko³a jazdy ma kursantów, instruktorów i samochody ró¿nych marek.
+    Samochody pochodz¹ z ró¿nych zakupów (ró¿ni¹ siê rokiem produkcji).
+    Ka¿da osoba podaje swój numer pesel.
+    Kursanci dziel¹ siê na osoby, które odbywaj¹ pe³en kurs oraz osoby, które chc¹ odbywaæ wy³¹cznie æwiczenia praktyczne.
+    Æwiczenia praktyczne to jazda po jednej z kilku ustalonych tras lub æwiczenia na placu manewrowym. Ka¿de æwiczenie trwa 1 godzinê.
+    Ka¿dy instruktor ma zastêpce-instruktora.
+    Proszê o zaproponowanie systemu, który pozwoli na ustalenie, który z instruktorów, kiedy, z którym kursantem i jakim samochodem ma pojechaæ na jakie æwiczenia praktyczne.
+    System ma tak¿e umo¿liwiaæ ustalenie, kto jest czyim zastêpc¹.
+    System ma pozwoliæ na ustalenie harmonogramu pracy instruktorów i u¿ycia pojazdów.
+
+Dane
+
+Pan Andrzej Nowak pesel 11111111 odbywa pe³en kurs,
+    1 lutego o 12 jedzie z instruktorem panem Markiem Kowalskim pesel 22222222 
+    autem Toyota Yaris z 2012 roku o rejestracji KR-123456
+    w trasê o numerze 1
+ 
+Pan Jacek Nowak pesel 33333333 odbywa pe³en kurs,
+    1 lutego o 12 jedzie z instruktorem panem Wojciechem Kowalskim pesel 44444444 
+    autem Toyota Yaris z 2013 roku o rejestracji KR-234567
+    w trasê o numerze 2
+
+Pan Pawe³ Nowak pesel 55555555 wykupi³ æwiczenia praktyczne,
+    2 lutego o 12 jedzie z instruktorem panem Markiem Kowalskim pesel 22222222 
+    autem Kia Rio z 2014 roku o rejestracji KR-345678
+    na prac manewrowy
+
+Pani Monika Nowak pesel 77777777 odbywa pe³en kurs,
+    2 lutego o 13 jedzie z instruktorem panem Wojciechem Kowalskim pesel 44444444 
+    autem Toyota Yaris z 2013 roku o rejestracji KR-234567
+    w trasê o numerze 3
+
+Pani Anna Nowak pesel 8888888 odbywa pe³en kurs,
+    2 lutego o 13 jedzie z instruktorem panem Piotrem Kowalskim pesel 99999999 
+    autem Kia Rio z 2015 roku o rejestracji KR-456789
+    w trasê o numerze 3
+
+Pani Józefina Nowak pesel 10101010 wykupi³a pe³en kurs, 
+    2 lutego o 15 jedzie z instruktorem panem Wojciechem Kowalskim pesel 44444444 
+    autem Toyota Yaris z 2012 roku o rejestracji KR-234567
+    w trasê o numerze 3
+
+Dodatkowe kursy (imiona+nazwiska s¹ unikatowe!):
+
+2 lutego o 11   Andrzej Nowak   Wojciech Kowalski   Wyk³ad
+2 lutego o 11   Józefina Nowak  Wojciech Kowalski   Wyk³ad
+2 lutego o 11   Anna Nowak      Wojciech Kowalski   Wyk³ad
+2 lutego o 11   Jacek Nowak     Wojciech Kowalski   Wyk³ad
+
+2 lutego o 17   Jacek Nowak     Piotr Kowalski      KR-234567   trasa 1
+2 lutego o 17   Anna Nowak      Wojciech Kowalski   KR-456789   trasa 1
+2 lutego o 17   Józefina Nowak  Marek Kowalski      KR-345678   trasa 1
+
+3 lutego o 11   Andrzej Nowak   Piotr Kowalski      KR-234567   trasa 1
+3 lutego o 12   Józefina Nowak  Piotr Kowalski      KR-234567   trasa 2
+3 lutego o 12   Anna Nowak      Wojciech Kowalski   KR-456789   trasa 3
+
+4 lutego o 11   Andrzej Nowak   Piotr Kowalski      KR-123456   trasa 2
+4 lutego o 12   Anna Nowak      Wojciech Kowalski   KR-123456   trasa 3
+
+5 lutego o 11   Andrzej Nowak   Piotr Kowalski      KR-234567   trasa 3
+5 lutego o 12   Andrzej Nowak   Marek Kowalski      KR-234567   plac manewrowy
+5 lutego o 12   Jacek Nowak     Wojciech Kowalski   KR-456789   trasa 1
+
+Zastêpstwa:
+Wojciech Kowalski               jest zastêpc¹ dla   Marka Kowalskiego
+Andrzej Kowalski pesel 12121212 jest zastêpc¹ dla   Marka Kowalskiego    
+Andrzej Kowalski pesel 12121212 jest zastêpc¹ dla   Wojciecha Kowalskiego
+Marek Kowalski                  jest zastêpc¹ dla   Piotra Kowalskiego
